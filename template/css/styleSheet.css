@@ -1,0 +1,138 @@
+    h1{
+	text-align:center;
+	}
+	
+	h3{
+		text-align:center;
+	}
+	
+
+	p{
+		text-align:left;
+	}
+
+	section{
+		width:100%;
+                border:none;
+	}
+
+	article{
+		width:150px;
+		height:250px;
+		background:white;
+		color:black;
+		display:inline-block;
+		border:none;
+		margin-left:80px;
+	}
+
+	.pic{
+		width:150px;
+		height:350px;
+	}
+
+	.movieListPic{
+		width:20%;
+		height:300px;
+		margin:50px;
+	}
+        .Description {
+                
+               
+                font-size: 15px;
+                font-family: Arial;
+                text-align:center;
+                margin: auto;
+                width:100%;
+                color: #696763;
+        }
+	
+
+	.listSection{
+		border:none;
+	}
+
+	.singleSection{
+		
+                text-align: left;
+                
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                margin: auto;
+		width:90%;
+		height:400px;
+             
+                border-bottom:3px solid #F6A830;
+                padding-top: 20px;
+                padding-right: 50px;
+                
+                background-color:#eeeeee;
+	}
+        
+        .movieDetailSection {
+                background-color:#eeeeee;
+        }
+        
+	ul{
+		list-style-type:none;
+	}
+
+	.singlePic{
+		width:300px;
+		height:100%;
+                float:left;
+		margin-left:30px;
+                margin-right:60px;
+                padding:20px;
+                
+                border-color: whitesmoke;
+	}
+
+	body{
+		position:relative;
+	}
+	
+	#search{
+		width:150px;
+		border:2px solid #ccc;
+		transition: 0.3s;
+		border-radius: 4px;
+		
+	}
+	
+	#search:focus{
+		border:2px solid #555;
+		
+	}
+	
+	#searchButton{
+		width:50px;
+		height:40px;
+		border:none;
+		background:white;
+		padding:5px;
+		color:#aaa;
+		transition:0.3s;
+	}
+	
+	#searchButton:hover{
+		color:#444;
+	}
+	
+	#dropMenu{
+		width:69px;
+		border-radius: 4px;
+	}
+        
+        .effectscale {
+            border: none;
+            margin: 0 auto;
+}
+        .effectscale:hover {
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+}
